@@ -47,7 +47,7 @@ nav{
     border-style: groove;
     border-width: 30px;
     width: 200px;
-    
+    margin:10px 0 0;
     
 }
 ul{
@@ -100,3 +100,26 @@ ul{
         font-weight: bold;
         margin-top: 10px;
     }
+
+footer{
+    text-align: center;
+    background-color: burlywood;
+    padding: 40px;
+
+}
+
+footer img{
+    width: 10%;
+    border-color: rgba(201, 135, 48, 0.767);
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 15px;
+    width: 12%
+
+}
+
+.copyright{
+    font-size: 25px;
+    margin: 20px 0 0;
+ 
+}            
