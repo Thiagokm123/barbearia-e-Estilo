@@ -145,3 +145,61 @@ form label, form p {
     padding: 10px 25px;
     width: 50%;
 }
+
+.enviar{
+    width:40%;
+    padding:15px 0;
+    background-color: rgba(201, 135, 48, 0.767);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s all;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: burlywood;
+    transform: scale(1.1);
+}
+
+table{
+    margin:20px 0 40px;
+}
+
+thead{
+    background: rgba(201, 135, 48, 0.767); 
+    color: white;
+    font-weight: bold;
+}
+
+tbody{
+    background: white;
+    color: black;
+    font-family: 'times new roman';
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*style.css*/
+
+.imagem{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.texto, .contato{
+    margin: 0 0 1em;
+}
+
+.texto p, .contato p{
+    margin: 0 0 1em;
+}
