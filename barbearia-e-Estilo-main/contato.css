@@ -1,0 +1,9 @@
+.logo{
+    width: 12%;
+    border-color: rgba(201, 135, 48, 0.767);
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
+    margin:10px 0 0;
+}

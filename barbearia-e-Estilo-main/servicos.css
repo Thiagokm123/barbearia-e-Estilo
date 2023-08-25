@@ -1,0 +1,213 @@
+h1{
+    color:brown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+body{
+    background-color: blanchedalmond;
+
+}
+
+header{
+    background-color: burlywood;
+}
+
+nav li{
+    display: inline;
+   margin-left: 30px;
+   margin-right: 30px;
+    text-align:center;
+}
+nav a:hover {
+color: rgba(201, 135, 48, 0.767);
+}
+
+nav a{
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: left;
+}
+
+nav{
+    text-align: left;
+    position: absolute;
+    top: 225px;
+    left: 10px;
+}
+.logo{
+    width: 12%;
+    border-color: rgba(201, 135, 48, 0.767);
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 30px;
+    width: 200px;
+    margin:10px 0 0;
+    
+}
+ul{
+    margin-left: 25px;
+    font-style: italic;
+    color: brown;
+
+}
+.servicos li:hover{ 
+    border-color: rgba(201, 135, 48, 0.767);
+}
+.servicos li:hover{
+    font-size: 40px;
+    color: rgba(201, 135, 48, 0.767);
+}
+.servicos li:active {
+    border-color:  brown;
+    border-width: 4px;
+}
+
+.servicos{
+    width: 1060px;
+    margin: 0 auto;
+
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 15px 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    }
+
+    .servicos h2{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    .descricao{
+        font-size: 18px;
+    }
+    .preco{
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+footer{
+    text-align: center;
+    background-color: burlywood;
+    padding: 40px;
+    clear: left;
+
+}
+
+footer img{
+    width: 10%;
+    border-color: rgba(201, 135, 48, 0.767);
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 15px;
+    width: 12%
+
+}
+
+.copyright{
+    font-size: 25px;
+    margin: 20px 0 0;
+ 
+}  
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width:40%;
+    padding:15px 0;
+    background-color: rgba(201, 135, 48, 0.767);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s all;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: burlywood;
+    transform: scale(1.1);
+}
+
+table{
+    margin:20px 0 40px;
+}
+
+thead{
+    background: rgba(201, 135, 48, 0.767); 
+    color: white;
+    font-weight: bold;
+}
+
+tbody{
+    background: white;
+    color: black;
+    font-family: 'times new roman';
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*style.css*/
+
+.imagem{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.texto .contato{
+    margin: 0 0 1em;
+}
+
+.texto p .contato p{
+    margin: 0 0 1em;
+}
+
+.imagem-principal{
+    width: 250px;
+    float: left;
+    margin: 10px 20px 20px 10px;
+}
